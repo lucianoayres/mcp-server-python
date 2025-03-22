@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "Python MCP Server": {
+      "command": "/path/to/python",
+      "args": ["/path/to/mcp-server.py"],
+      "env": {
+        "API_KEY": "abc-1234567890"
+      }
+    }
+  }
+}
