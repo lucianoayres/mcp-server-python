@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "MCP Server": {
-      "command": "/path/to/mcp-server-python/.venv/bin/python3",
-      "args": ["/path/to/mcp-server-python/mcp-server.py"],
+      "command": "/path/to/python",
+      "args": ["/path/to/mcp-server.py"],
       "env": {
         "API_KEY": "abc-1234567890"
       }
