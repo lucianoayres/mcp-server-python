@@ -146,6 +146,7 @@ The project comprises the following key parts:
 
 ## Reference & Sources
 
+- [Model Context Protocol: python-sdk](https://github.com/modelcontextprotocol/python-sdk)
 - [How to Build MCP Servers and Clients from Scratch](https://dev.to/composiodev/how-to-build-mcp-servers-and-clients-from-scratch-4o2f)
 - [Model Context Protocol Introduction](https://modelcontextprotocol.io/introduction)
 
