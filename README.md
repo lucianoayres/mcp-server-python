@@ -109,9 +109,24 @@ This project includes a `mcp.json` configuration that allows Cursor AI to discov
 - **env:** (Optional)  
   Defines environment variables for your MCP server process. In this example, the `API_KEY` is set to `"abc-1234567890"`. Adjust this value as needed for your environment.
 
+  You can verify the absolute path to your Python executable by running `which python` in your terminal.
+
+## Configuration Automation Scripts (Optional)
+
+Easily configure your local environment by automatically updating the mcp.json file with the correct absolute paths. To apply your local settings, run the following commands from your project root:
+
+```bash
+chmod +x ./scripts/update_config.sh
+./scripts/update_config.sh
+```
+
+This script replaces the placeholder paths in mcp.json with your machine’s absolute paths for Python and the server script, ensuring your configuration settings are always accurate.
+
+### Optional: Global Cursor settings
+
 You can also move the `mcp.json` file to your global Cursor AI configuration directory located at `~/.cursor` to make the configuration available globally.
 
-## Using the MCP Tool in Cursor Composer (Agent Mode)
+## Optional: Using the MCP Tool in Cursor Composer
 
 With the MCP server integrated into Cursor AI and with Agent mode enabled in Cursor Composer, simply use a natural language prompt like:
 
